@@ -18,7 +18,7 @@ const totalTip = sum * (tipPercentage / 100);
 const totalSum = sum + totalTip;
 const perPerson = totalSum / people;
 
-resultDiv.textContent = perPerson.toFixed(2);
+resultDiv.textContent = `З кожного по: ${perPerson.toFixed(2)} грн`;
 })
 
 
